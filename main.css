@@ -12,6 +12,11 @@ h3 {
     text-align: left;
 }
 
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 pre {
     background-color: black;
     color:white;
