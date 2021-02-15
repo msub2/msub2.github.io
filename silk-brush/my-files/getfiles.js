@@ -26,15 +26,15 @@ window.onload = () => {
                     switch (extension) {
                         case "tilt":
                             a.href = URL.createObjectURL(new Blob([file], { type: "application/octet-stream" }));
-                            document.getElementById("sketch").appendChild(a);
+                            document.getElementById("sketches").appendChild(a);
                             break;
                         case "glb":
                             a.href = URL.createObjectURL(new Blob([file], { type: "model/gltf-binary" }));
-                            document.getElementById("model").appendChild(a);
+                            document.getElementById("models").appendChild(a);
                             break;
                         case "png":
                             a.href = URL.createObjectURL(new Blob([file], { type: "image/png" }));
-                            document.getElementById("snapshot").appendChild(a);
+                            document.getElementById("snapshots").appendChild(a);
                             break;
                         default:
                             break;
