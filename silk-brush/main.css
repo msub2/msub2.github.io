@@ -1,6 +1,7 @@
 body {
     color:white;
-    background-color:darkslategray;
+    background-color:black;
+    font: "verdana";
 }
 
 .main {
