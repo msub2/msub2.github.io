@@ -12,6 +12,7 @@ window.onload = () => {
                 }
                 else {
                     var file = cursor.value.contents.buffer;
+                    var filename = cursor.key.split("/").pop();
 
                     // Get window.URL object
                     var URL = window.URL || window.webkitURL;
