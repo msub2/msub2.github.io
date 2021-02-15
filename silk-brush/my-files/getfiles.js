@@ -6,7 +6,8 @@ window.onload = () => {
         let objectStore = db.transaction("FILE_DATA").objectStore("FILE_DATA").openCursor().onsuccess = function (event) {
             let cursor = event.target.result;
             if (cursor) {
-                console.log(cursor);
+                console.log(cursor.key);
+                console.log(cursor.key.substring(cursor.key.length - 4));
 
                 /*var glbFile = cursor.value.contents.buffer;
 
