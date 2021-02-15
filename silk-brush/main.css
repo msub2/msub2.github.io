@@ -1,0 +1,22 @@
+body {
+    color:white;
+    background-color:darkslategray;
+}
+
+.main {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+pre {
+    background-color: black;
+    color:white;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
