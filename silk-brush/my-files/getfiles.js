@@ -33,7 +33,11 @@ window.onload = () => {
                             document.getElementById("models").appendChild(a);
                             break;
                         case "png":
+                            a.innerHTML = "";
                             a.href = URL.createObjectURL(new Blob([file], { type: "image/png" }));
+                            let img = document.createElement("img");
+                            img.src = a.href;
+                            a.appendChild(img);
                             document.getElementById("snapshots").appendChild(a);
                             break;
                         default:
