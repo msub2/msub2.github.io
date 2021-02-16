@@ -8,11 +8,43 @@
 </head>
 
 <body>
+    <div class="header">
+        <h1 id="title">m₂</h1>
+        <a href="index.html">Home</a>
+        <a href="silk-brush/">Silk Brush</a>
+        (
+        <a href="silk-brush/my-files/">Files</a>
+        )
+        <hr />
+    </div>
     <div class="main">
         <h1>Silk Brush</h1>
-        <h2>If you're reading this message, the page isn't ready yet! I'm probably still getting Silk Brush to load
-            properly. Please wait for the announcement :)</h2>
         <iframe src="src/index.html" width="1280" height="720"></iframe>
+        <h2>Info</h2>
+        <p>
+            Silk Brush is a port of Tilt Brush to WebXR, with the aim of being as
+            close in functionality to the original as possible. Currently, you are able to
+            use all default brushes, save/load sketches, snapshots, and even do a basic export to .glb.
+            There are a few third party integrations known not to work, and likely
+            some that haven't been tested yet.
+        </p>
+        <p>
+            It's possible that some data loss may occur between Silk Brush updates! Be sure to visit
+            the <a href="files/">Files</a> page and save your work if you need to.
+        </p>
+        <h2>Exporting</h2>
+        <p>
+            Currently, you can export your model to .glb right from inside Silk Brush, and it will
+            attempt to download it after a 5 second delay. In the event that it doesn't, however,
+            you can browse to the <a href="files/">Files</a> page, where all your saved sketches,
+            models, and snapshots are retrieved from local storage and made available to download.
+        </p>
+        <h2>Bugs/Issues</h2>
+        <p>
+            If you find any bugs/missing features, feel free to open an issue on the
+            <a href="https://github.com/msub2/silk-brush">repo</a> if there's not one already
+            and I'll do my best to address it.
+        </p>
     </div>
 </body>
 
