@@ -22,8 +22,8 @@ h3 {
 }
 
 iframe {
-    width: 66%;
-    height:auto;
+    width: 66vw;
+    height: calc(66vw * 0.5625); /* 16:9 */
 }
 
 img {
