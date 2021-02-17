@@ -21,6 +21,11 @@ h3 {
     text-align: left;
 }
 
+iframe {
+    width: 66%;
+    height:auto;
+}
+
 img {
     max-width: 100%;
     height:auto;
